@@ -1,5 +1,5 @@
-let n = 0
-let f = [
+let Number2 = 0
+let Channels = [
 "ISAB.",
 "Mr. Beast.",
 "Mark Rober.",
@@ -9,7 +9,7 @@ let f = [
 ]
 basic.forever(function () {
     if (input.isGesture(Gesture.Shake)) {
-        n = randint(0, 5)
-        basic.showString("" + (f[n]))
+        Number2 = randint(0, 5)
+        basic.showString("" + (Channels[Number2]))
     }
 })
