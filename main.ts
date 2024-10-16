@@ -8,9 +8,6 @@ let f = [
 "Nick Eh 30."
 ]
 basic.forever(function () {
-	
-})
-basic.forever(function () {
     if (input.isGesture(Gesture.Shake)) {
         n = randint(0, 5)
         basic.showString("" + (f[n]))
